@@ -1,8 +1,10 @@
 
 
 .App{
-  color:  red; 
+  color:  black; 
   text-transform: capitalize;
   text-align: center;
-  background-color: turquoise;
+  background-color:lightblue;
+  padding: 200px;
+
 }
