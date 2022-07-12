@@ -4,7 +4,10 @@
   color:  black; 
   text-transform: capitalize;
   text-align: center;
-  background-color:lightblue;
+  background-image: linear-gradient(to right, #ff00cc  ,  #333399 );
   padding: 200px;
 
+}
+.aboutMe{
+  color  :  whitesmoke;
 }
