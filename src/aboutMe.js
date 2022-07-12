@@ -1,7 +1,9 @@
 const AboutMe = () => {
   return (
     <>
-      <div className="aboutMe"></div>
+      <div className="aboutMe">
+        <div className="backgroundAbout"></div>
+      </div>
     </>
   );
 };
