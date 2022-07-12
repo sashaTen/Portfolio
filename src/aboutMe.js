@@ -3,8 +3,9 @@ const   AboutMe=()=>{
        
 <div className =  "aboutMe">
     
-
 </div>
+<article  className="blurBack">
+</article>
 
 
     </>)
