@@ -1,18 +1,9 @@
-const   AboutMe=()=>{
-    return (<>
-       
-<div className =  "aboutMe">
-    
-</div>
-<article  className="blurBack">
-</article>
+const AboutMe = () => {
+  return (
+    <>
+      <div className="aboutMe"></div>
+    </>
+  );
+};
 
-
-    </>)
-}
-
-
-
-
-
-export  default AboutMe;
+export default AboutMe;
