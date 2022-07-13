@@ -3,7 +3,7 @@
   text-transform: capitalize;
   text-align: center;
   background-image: linear-gradient(to right, #ff00cc, #333399);
-  height: 100vh;
+  height: 200vh;
 }
 .aboutMe {
   color: whitesmoke;
@@ -11,7 +11,7 @@
   height: 90vh;
   margin-left: 5%;
   position: relative;
-  top: 5%;
+  top: 100px;
   border-radius: 2%;
   border: 1px white solid;
 }
