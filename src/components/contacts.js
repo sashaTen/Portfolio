@@ -1,5 +1,5 @@
 //phone ,  email ,  github  ,  linked id  , telegram
-
+import { IconName } from "react-icons/ai";
 const Contacts = () => {
   return (
     <>
