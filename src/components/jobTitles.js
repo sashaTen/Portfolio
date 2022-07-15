@@ -2,16 +2,11 @@ const JobTitles = () => {
   return (
     <div className="mainContainer">
       <div className="backgroundOpacity"></div>
-      <div>
-        hello
-        <br />
-        i am
-        <br />
-        ten alexander
-        <br />
-        ux designer
-        <br />
-        web developer
+      <div className="jobTitleContainer">
+        <h1>hello</h1>
+        <h1>i am ten alexander</h1>
+        <h1>i am web developer</h1>
+        <h1>and ux/ui designer</h1>
       </div>
     </div>
   );

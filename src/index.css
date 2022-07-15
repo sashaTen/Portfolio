@@ -4,29 +4,40 @@
   text-align: center;
   height: auto;
   background-image: linear-gradient(to top, #ff00cc, #333399);
-  padding: 5%;
+  padding: 10%;
 }
 .mainContainer {
   color: whitesmoke;
-  width: 90%;
-  height: 90vh;
-  margin-left: 5%;
   position: relative;
-  top: 5%;
+  width: 30%;
+  height: 70vh;
+  margin-left: 15%;
+  position: relative;
+  top: 10%;
   border-radius: 2%;
   border: 1px white solid;
 }
 .backgroundOpacity {
   color: whitesmoke;
   width: 100%;
-  height: 90vh;
+  height: inherit;
   position: absolute;
   border-radius: 2%;
   background: white;
   opacity: 0.25;
 }
-
+.jobTitleContainer {
+  display: grid;
+  height: 50vh;
+  margin-top: 20%;
+}
 @media screen and (max-width: 680px) {
-  .aboutMe {
+  .App {
+    padding: 5%;
+  }
+  .mainContainer {
+    width: 90%;
+    margin-left: 5%;
+    height: 90vh;
   }
 }
