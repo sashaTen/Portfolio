@@ -1,4 +1,4 @@
-const AboutMe = () => {
+const MainBackground = () => {
   return (
     <>
       <div className="aboutMe">
@@ -8,4 +8,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default MainBackground;
