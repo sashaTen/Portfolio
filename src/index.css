@@ -16,7 +16,7 @@
   height: 70vh;
   position: relative;
   top: 20%;
-  left: 10%;
+  left: 4%;
 }
 
 .jobTitleContainer {
@@ -33,11 +33,11 @@
 
 .templateContainer,
 .contactContainer {
-  width: 33%;
+  width: 43%;
   height: 80vh;
   border: 1px solid lightblue;
   position: absolute;
-  left: 45%;
+  left: 38%;
   top: 15%;
   border-radius: 10%;
 }
