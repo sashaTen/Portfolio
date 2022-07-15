@@ -1,12 +1,12 @@
 .App {
-  color: black;
+  color: white;
   text-transform: capitalize;
   text-align: center;
   height: auto;
   background-image: linear-gradient(to top, #ff00cc, #333399);
   padding: 5%;
 }
-.aboutMe {
+.mainContainer {
   color: whitesmoke;
   width: 90%;
   height: 90vh;
@@ -16,7 +16,7 @@
   border-radius: 2%;
   border: 1px white solid;
 }
-.backgroundAbout {
+.backgroundOpacity {
   color: whitesmoke;
   width: 100%;
   height: 90vh;

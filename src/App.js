@@ -4,10 +4,7 @@ import JobTitles from "./components/jobTitles";
 function App() {
   return (
     <div className="App">
-      <div className="aboutMe">
-        <div className="backgroundAbout"></div>
-        <JobTitles />
-      </div>
+      <JobTitles />
     </div>
   );
 }
