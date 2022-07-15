@@ -1,7 +1,6 @@
 const JobTitles = () => {
   return (
     <div className="mainContainer">
-      <div className="backgroundOpacity"></div>
       <div className="jobTitleContainer">
         <h1>hello</h1>
         <h1>i am ten alexander</h1>
