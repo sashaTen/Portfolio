@@ -17,17 +17,11 @@
   height: 70vh;
   position: relative;
   top: 10%;
-  border-radius: 2%;
-  border: 1px white solid;
 }
 .backgroundOpacity {
-  color: whitesmoke;
   width: 100%;
   height: inherit;
   position: absolute;
-  border-radius: 2%;
-  background: white;
-  opacity: 0.25;
 }
 .jobTitleContainer {
   margin-top: 5%;
