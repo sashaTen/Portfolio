@@ -4,7 +4,7 @@
   color: white;
   text-align: center;
   height: auto;
-  background-image: linear-gradient(to top, #ff00cc, #333399);
+  background-image: linear-gradient(to top, #ff00cc, #333399, #333399);
   padding: 10%;
 }
 .mainContainer {
