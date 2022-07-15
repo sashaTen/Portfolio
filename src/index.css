@@ -2,8 +2,9 @@
   color: black;
   text-transform: capitalize;
   text-align: center;
-  height: 100vh;
+  height: auto;
   background-image: linear-gradient(to top, #ff00cc, #333399);
+  padding: 5%;
 }
 .aboutMe {
   color: whitesmoke;
