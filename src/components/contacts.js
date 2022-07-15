@@ -5,7 +5,10 @@ const Contacts = () => {
     <>
       <div className="contactContainer">
         <div className="blackBack"></div>
-        <div className="contacts">hello</div>
+        <section className="contacts">
+          <div className="contactHeader">contact me</div>
+          <article className="contactIconsContainer"></article>
+        </section>
       </div>
     </>
   );
