@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <div className="aboutMe">
         <div className="backgroundAbout"></div>
+        <JobTitles />
       </div>
     </div>
   );
