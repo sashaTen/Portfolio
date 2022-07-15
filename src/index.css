@@ -1,15 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Water+Brush&display=swap");
+
 .App {
   color: white;
-  text-transform: capitalize;
   text-align: center;
   height: auto;
   background-image: linear-gradient(to top, #ff00cc, #333399);
   padding: 10%;
 }
 .mainContainer {
+  text-transform: uppercase;
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 0.9em;
   color: whitesmoke;
   position: relative;
-  width: 30%;
+  width: 33%;
   height: 70vh;
   margin-left: 15%;
   position: relative;
@@ -27,9 +31,14 @@
   opacity: 0.25;
 }
 .jobTitleContainer {
-  display: grid;
+  margin-top: 5%;
   height: 50vh;
-  margin-top: 20%;
+}
+.jobTitleContainer > h1 {
+  font-size: 2.4rem;
+  background: -webkit-linear-gradient(rgb(32, 189, 241), white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media screen and (max-width: 680px) {
   .App {
@@ -39,5 +48,9 @@
     width: 90%;
     margin-left: 5%;
     height: 90vh;
+    font-size: 1em;
+  }
+  .jobTitleContainer {
+    margin-top: 15%;
   }
 }
