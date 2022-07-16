@@ -78,7 +78,6 @@
   top: 20%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  left: 10%;
   row-gap: 80%;
   position: absolute;
   width: 100%;
