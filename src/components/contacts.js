@@ -1,5 +1,11 @@
 //phone ,  email ,  github  ,  linked id  , telegram
-import { AiOutlineMail, AiOutlineGithub } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiOutlineGithub,
+  AiOutlinePhone,
+  AiFillLinkedin
+} from "react-icons/ai";
+import { BsTelegram, BsInstagram } from "react-icons/bs";
 const Contacts = () => {
   return (
     <>
@@ -10,10 +16,10 @@ const Contacts = () => {
           <div className="contactIconsContainer">
             <AiOutlineMail className="emailIcon" />
             <AiOutlineGithub className="emailIcon" />
-            <AiOutlineMail className="emailIcon" />
-            <AiOutlineMail className="emailIcon" />
-            <AiOutlineMail className="emailIcon" />
-            <AiOutlineMail className="emailIcon" />
+            <AiOutlinePhone className="emailIcon" />
+            <AiFillLinkedin className="emailIcon" />
+            <BsTelegram className="emailIcon" />
+            <BsInstagram className="emailIcon" />
           </div>
         </section>
       </div>
