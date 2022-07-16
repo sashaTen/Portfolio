@@ -14,12 +14,12 @@ const Contacts = () => {
         <section className="contacts">
           <div className="contactHeader">contact me</div>
           <div className="contactIconsContainer">
-            <AiOutlineMail className="emailIcon" />
-            <AiOutlineGithub className="emailIcon" />
-            <AiOutlinePhone className="emailIcon" />
-            <AiFillLinkedin className="emailIcon" />
-            <BsTelegram className="emailIcon" />
-            <BsInstagram className="emailIcon" />
+            <AiOutlineMail className="contactIcon" />
+            <AiOutlineGithub className="contactIcon" />
+            <AiOutlinePhone className="contactIcon" />
+            <AiFillLinkedin className="contactIcon" />
+            <BsTelegram className="contactIcon" />
+            <BsInstagram className="contactIcon" />
           </div>
         </section>
       </div>

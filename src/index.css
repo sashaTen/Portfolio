@@ -83,9 +83,12 @@
   position: absolute;
   width: 100%;
 }
-.emailIcon {
+.contactIcon {
   font-size: 3.5rem;
   color: lightgreen;
+}
+.contactIcon:hover {
+  color: cyan;
 }
 
 @media screen and (max-width: 680px) {
