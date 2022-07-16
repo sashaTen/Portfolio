@@ -1,5 +1,5 @@
 //phone ,  email ,  github  ,  linked id  , telegram
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineGithub } from "react-icons/ai";
 const Contacts = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Contacts = () => {
           <div className="contactHeader">contact me</div>
           <div className="contactIconsContainer">
             <AiOutlineMail className="emailIcon" />
-            <AiOutlineMail className="emailIcon" />
+            <AiOutlineGithub className="emailIcon" />
             <AiOutlineMail className="emailIcon" />
             <AiOutlineMail className="emailIcon" />
             <AiOutlineMail className="emailIcon" />
