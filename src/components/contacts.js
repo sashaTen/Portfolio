@@ -1,4 +1,5 @@
 //phone ,  email ,  github  ,  linked id  , telegram
+import { useNavigate } from "react-router";
 import {
   AiOutlineMail,
   AiOutlineGithub,
@@ -30,7 +31,7 @@ const Contacts = () => {
             </CopyToClipboard>
 
             <AiOutlineGithub className="contactIcon" />
-            <AiOutlinePhone className="contactIcon" />
+
             <AiFillLinkedin className="contactIcon" />
             <BsTelegram className="contactIcon" />
             <BsInstagram className="contactIcon" />
