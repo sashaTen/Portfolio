@@ -99,11 +99,11 @@
     margin-left: 5%;
     height: 90vh;
     font-size: 1em;
-    top: 5%;
+    top: -10%;
     left: 0%;
   }
   .jobTitleContainer {
-    margin-top: 15%;
+    margin-top: -10%;
     filter: blur(10px);
     left: 4%;
   }
