@@ -91,9 +91,21 @@
 .contactIcon:hover {
   color: cyan;
 }
+
+.educationHeader:hover {
+  color: black;
+}
 .educationList {
+  padding-top: 15%;
   display: grid;
-  color: red;
+  position: relative;
+}
+.soonchunhyangImg {
+  width: 50%;
+}
+.seoulCyber {
+  margin-top: 20%;
+  width: 50%;
 }
 @media screen and (max-width: 680px) {
   .App {
