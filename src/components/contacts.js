@@ -5,6 +5,7 @@ import {
   AiOutlinePhone,
   AiFillLinkedin
 } from "react-icons/ai";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import { BsTelegram, BsInstagram } from "react-icons/bs";
 const Contacts = () => {
   return (
@@ -14,7 +15,20 @@ const Contacts = () => {
         <section className="contacts">
           <div className="contactHeader">contact me</div>
           <div className="contactIconsContainer">
-            <AiOutlineMail className="contactIcon" />
+            <CopyToClipboard
+              text="sasha1keshten@gmail.com"
+              onCopy={() => alert(" your  email was Copied")}
+            >
+              <AiOutlineMail className="contactIcon" />
+            </CopyToClipboard>
+
+            <CopyToClipboard
+              text="010 7777 7777"
+              onCopy={() => alert(" your  phone number was Copied")}
+            >
+              <AiOutlinePhone className="contactIcon" />
+            </CopyToClipboard>
+
             <AiOutlineGithub className="contactIcon" />
             <AiOutlinePhone className="contactIcon" />
             <AiFillLinkedin className="contactIcon" />
