@@ -26,16 +26,18 @@
 }
 
 .jobTitleContainer > h1,
-.contactHeader {
+.contactHeader,
+.educationHeader {
   text-transform: uppercase;
   font-family: "Rubik Moonrocks", cursive;
   font-size: 2.4rem;
-  background: -webkit-linear-gradient(rgb(32, 189, 241), white);
+  background: -webkit-linear-gradient(yellow, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .templateContainer,
+.educationContainer,
 .contactContainer {
   width: 43%;
   height: 80vh;
@@ -89,7 +91,10 @@
 .contactIcon:hover {
   color: cyan;
 }
-
+.educationList {
+  display: grid;
+  color: red;
+}
 @media screen and (max-width: 680px) {
   .App {
     padding: 5%;
@@ -112,13 +117,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .contactContainer {
+  .contactContainer,
+  .educationContainer {
     width: 80%;
     color: white;
     left: 10%;
   }
-  .contactHeader {
-    font-size: 1rem;
+  .contactHeader,
+  .educationHeader {
+    font-size: 1.3rem;
     left: 25%;
   }
 }
