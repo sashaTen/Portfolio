@@ -18,7 +18,7 @@ const Education = () => {
           <a target="_blank" href="https://www.iscu.ac.kr/global/eng/">
             <img
               className="seoulCyber"
-              src="https://www.iscu.ac.kr/global/eng//images/main2/logo.png?version=1658014030631"
+              src="https://lh3.googleusercontent.com/rC2eTc47lTVKmG_pLNBA2fOa8Q-haM84O1nqbLNLmYBx-V_QuevjUFDVxN6aBJ9H0hY=h500"
             />
           </a>
         </div>
