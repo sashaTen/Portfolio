@@ -13,7 +13,7 @@
   color: whitesmoke;
   position: relative;
   width: 33%;
-  height: 70vh;
+  height: 170vh;
   position: relative;
   top: 20%;
   left: 4%;
@@ -95,21 +95,42 @@
 .educationHeader:hover {
   color: black;
 }
+.educationContainer {
+  height: auto;
+}
 .educationList {
   top: 5%;
   display: grid;
   position: relative;
+  grid-row-gap: 50px;
+}
+.aboutEducation {
+  width: 50%;
+  position: relative;
+  border: 10px solid lightblue;
+  padding: 10px;
+  left: 20%;
+  text-transform: uppercase;
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 1.4rem;
+  background-image: linear-gradient(to top, #ff00cc, #333399, #333399);
 }
 .soonchunhyangImg {
+  border: 10px lightblue solid;
+  filter: hue-rotate(100deg);
   width: 50%;
   height: 60%;
   object-fit: cover;
 }
 .seoulCyber {
-  margin-top: 20%;
+  border: 10px lightblue solid;
+  filter: hue-rotate(90deg);
+  background: white;
   width: 50%;
   position: relative;
-  bottom: 50%;
+  bottom: 90%;
+  height: 150%;
+  object-fit: contain;
 }
 @media screen and (max-width: 680px) {
   .App {
@@ -118,7 +139,7 @@
   .mainContainer {
     width: 90%;
     margin-left: 5%;
-    height: 90vh;
+    height: 170vh;
     font-size: 1em;
     top: -10%;
     left: 0%;
