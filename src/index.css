@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Water+Brush&display=swap");
 
 .App {
+  letter-spacing: 0.2rem;
   color: white;
   text-align: center;
   min-height: 100vh;
