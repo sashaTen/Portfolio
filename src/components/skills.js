@@ -1,5 +1,5 @@
 const MySkills = () => {
-  return <>my skills</>;
+  return <>my skills'component</>;
 };
 
 export default MySkills;
