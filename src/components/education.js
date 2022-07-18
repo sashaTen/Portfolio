@@ -6,8 +6,10 @@ const Education = () => {
         <h1 className="educationHeader">Education:</h1>
         <div className="educationList">
           <article className="aboutEducation">
-            i studied software engineering in soonchunhyang university and then
-            i transfered to Seoul Cyber university
+            i studied software engineering in "soon
+            <br />
+            chun <br /> hyang"
+            <br /> and then i transfered to Seoul Cyber university
           </article>
           <a target="_blank" href="http://sgee.sch.ac.kr/main/eng_main.php">
             <img
