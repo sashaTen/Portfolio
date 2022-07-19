@@ -4,11 +4,12 @@ import JobTitles from "./components/jobTitles";
 import Contacts from "./components/contacts";
 import Education from "./components/education";
 import MySkills from "./components/skills";
+import Projects from "./components/expirience";
 function App() {
   return (
     <div className="App">
       <JobTitles />
-      <MySkills />
+      <Projects />
     </div>
   );
 }
