@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Water+Brush&display=swap");
-
+body {
+  background: #ff00cc;
+}
 .App {
   letter-spacing: 0.3rem;
   color: white;
   text-align: center;
   min-height: 100vh;
   background-image: linear-gradient(to top, #ff00cc, #333399, #333399);
+  overflow: hidden;
 }
 .mainContainer {
   text-transform: uppercase;
@@ -14,7 +17,7 @@
   color: whitesmoke;
   position: relative;
   width: 33%;
-  height: 170vh;
+  height: 200vh;
   position: relative;
   top: 20%;
   left: 4%;
@@ -123,7 +126,7 @@
 .soonchunhyangImg {
   border: 10px lightblue solid;
   filter: hue-rotate(100deg);
-  width: 50%;
+  width: 80%;
   height: 60%;
   object-fit: cover;
 }
@@ -131,7 +134,7 @@
   border: 10px lightblue solid;
   filter: hue-rotate(90deg);
   background: white;
-  width: 50%;
+  width: 80%;
   position: relative;
   bottom: 50%;
   height: 120%;
@@ -147,6 +150,15 @@
   color: white;
   text-transform: uppercase;
 }
+.singleProjectContainer {
+  padding: 20px;
+  margin: 20px;
+  border: lightgreen 1px solid;
+  margin-bottom: 100px;
+}
+.projectImg {
+  width: 90%;
+}
 @media screen and (max-width: 680px) {
   .App {
     padding: 5%;
@@ -154,7 +166,7 @@
   .mainContainer {
     width: 90%;
     margin-left: 5%;
-    height: 170vh;
+    height: 200vh;
     font-size: 1em;
     top: -10%;
     left: 0%;
