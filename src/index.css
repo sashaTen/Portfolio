@@ -47,11 +47,11 @@
   border: 1px solid lightblue;
   position: absolute;
   left: 38%;
-  top: 15%;
+  top: 5%;
   border-radius: 10%;
 }
 .skillContainer {
-  height: 100vh;
+  height: 80vh;
 }
 
 .blackBack {
@@ -79,7 +79,6 @@
   align-items: center;
   width: 50%;
   left: 25%;
-  top: -5%;
 }
 .contactIconsContainer {
   position: relative;
