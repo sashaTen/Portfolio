@@ -191,7 +191,7 @@
     font-size: 1.3rem;
     left: 25%;
   }
-  .skillNameIcon {
-    font-size: 0.8rem;
+  .skillNameIcon > p {
+    font-size: 0.5rem;
   }
 }
