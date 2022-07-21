@@ -15,7 +15,7 @@
   color: whitesmoke;
   position: relative;
   width: 33%;
-  height: 200vh;
+  height: 100vh;
   position: relative;
   top: 20%;
   left: 4%;
@@ -163,7 +163,7 @@
   .mainContainer {
     width: 90%;
     margin-left: 5%;
-    height: 200vh;
+    height: 100vh;
     font-size: 1em;
     top: -10%;
     left: 0%;
