@@ -1,4 +1,4 @@
-const Education = () => {
+const AboutMe = () => {
   return (
     <>
       <div className="educationContainer">
@@ -23,4 +23,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default AboutMe;
