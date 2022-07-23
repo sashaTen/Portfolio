@@ -150,7 +150,7 @@
   }
   .jobTitleContainer {
     margin-top: -10%;
-    filter: blur(10px);
+    filter: blur(15px);
     left: 4%;
   }
 
@@ -168,5 +168,8 @@
   }
   .skillNameIcon > p {
     font-size: 0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgreen;
   }
 }
