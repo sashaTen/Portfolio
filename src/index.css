@@ -97,28 +97,6 @@
   color: cyan;
 }
 
-.educationHeader:hover {
-  color: black;
-}
-
-.educationList {
-  top: 5%;
-  display: grid;
-  position: relative;
-}
-
-.soonchunhyangImg,
-.seoulCyber {
-  opacity: 0.4;
-  width: 80%;
-  height: 40%;
-  object-fit: contain;
-}
-.seoulCyber {
-  width: 100%;
-  position: relative;
-  bottom: 150px;
-}
 .skillGrid {
   position: relative;
   top: 0%;
@@ -152,6 +130,11 @@
     margin-top: -10%;
     filter: blur(15px);
     left: 4%;
+  }
+  .jobTitleContainer > h1 {
+    background: -webkit-linear-gradient(green, red, blue, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .contactContainer,
