@@ -1,10 +1,5 @@
 const Projects = () => {
-  return (
-    <div className="educationContainer">
-      <h1 className="educationHeader">my projects:</h1>
-      <div className="educationList"></div>
-    </div>
-  );
+  return <div className="educationContainer"></div>;
 };
 
 export default Projects;
