@@ -42,7 +42,8 @@
 .templateContainer,
 .educationContainer,
 .contactContainer,
-.skillContainer {
+.skillContainer,
+.projectContainer {
   width: 43%;
   height: 80vh;
   border: 1px solid lightblue;
@@ -106,15 +107,16 @@
   font-size: 1.2rem;
   text-transform: uppercase;
 }
-.singleProjectContainer {
-  padding: 20px;
-  margin: 20px;
-  border: lightgreen 1px solid;
-  margin-bottom: 100px;
+
+.projectContainer {
+  background: white;
 }
-.projectImg {
-  width: 90%;
+.galleryContainer {
+  width: 100%;
+  background: black;
+  height: 100%;
 }
+
 @media screen and (max-width: 680px) {
   .App {
     padding: 5%;
@@ -137,7 +139,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  .projectContainer,
   .contactContainer,
   .educationContainer,
   .skillContainer {
