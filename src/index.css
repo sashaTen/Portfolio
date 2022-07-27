@@ -110,11 +110,29 @@
 
 .projectContainer {
   background: white;
+  overflow: hidden;
 }
 .galleryContainer {
-  width: 100%;
+  position: relative;
+  top: 7%;
+  width: 300%;
   background: black;
+  height: 90%;
+  display: flex;
+}
+.projectImg1,
+.projectImg2,
+.projectImg3 {
+  background: transparent;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
+}
+.projectImg2 {
+  background: red;
+}
+.projectImg3 {
+  background: blue;
 }
 
 @media screen and (max-width: 680px) {
