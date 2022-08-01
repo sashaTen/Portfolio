@@ -29,16 +29,21 @@ const Projects = () => {
       setMoveToRight(moveToRight - 200);
     }
   }
+  /*
 
-  return (
-    <div className="projectContainer">
-      <button
+   <button
         onClick={() => {
           setcurrentImgList(foodImgList);
         }}
       >
         press
       </button>
+  */
+
+  return (
+    <div className="projectContainer">
+      <article className="projectHeader"></article>
+
       <button
         onClick={() => {
           moveGalleryToRight();
