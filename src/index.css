@@ -5,7 +5,7 @@
   color: white;
   text-align: center;
   min-height: 100vh;
-  background-image: linear-gradient(to top, darkcyan, black, black, black);
+  background-image: linear-gradient(to top, lightgreen, black, black, black);
   overflow: hidden;
 }
 .mainContainer {
@@ -175,7 +175,7 @@
     left: 4%;
   }
   .jobTitleContainer > h1 {
-    background: -webkit-linear-gradient(green, red, blue, yellow);
+    background: -webkit-linear-gradient(green, lightblue, pink);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
