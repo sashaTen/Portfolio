@@ -116,6 +116,7 @@
   top: 7%;
   width: 300%;
 
+  transition: 1s;
   height: 90%;
   display: flex;
 }
@@ -131,7 +132,6 @@
 .galleryBtnLeft {
   position: absolute;
   top: 40%;
-
   color: lightblue;
   font-size: 3rem;
   background: transparent;

@@ -11,8 +11,14 @@ const Projects = () => {
 
 
 */
+  function moveGalleryToLeft() {
+    setMoveToRight(moveToRight - 100);
+    if (moveToRight < 100) {
+      setMoveToRight(0);
+    }
+  }
 
-  function moveGallery() {
+  function moveGalleryToRight() {
     setMoveToRight(moveToRight + 100);
     if (moveToRight > 100) {
       setMoveToRight(moveToRight - 200);
@@ -23,20 +29,22 @@ const Projects = () => {
     <div className="projectContainer">
       <button
         onClick={() => {
-          moveGallery();
+          moveGalleryToRight();
         }}
         className="galleryBtnRight"
       >
         <MdArrowForwardIos />
       </button>
-      <button
-        onClick={() => {
-          moveGallery();
-        }}
-        className="galleryBtnLeft"
-      >
-        <MdArrowBackIosNew />
-      </button>
+      {moveToRight > 0 && (
+        <button
+          onClick={() => {
+            moveGalleryToLeft();
+          }}
+          className="galleryBtnLeft"
+        >
+          <MdArrowBackIosNew />
+        </button>
+      )}
       <article
         className="galleryContainer"
         style={{ right: moveToRight + "%" }}
