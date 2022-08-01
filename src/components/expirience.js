@@ -43,9 +43,30 @@ const Projects = () => {
   return (
     <div className="projectContainer">
       <article className="projectHeader">
-        <button className="switchProjectBtn">furniture project</button>
-        <button className="switchProjectBtn">furniture project</button>
-        <button className="switchProjectBtn">furniture project</button>
+        <button
+          onClick={() => {
+            setcurrentImgList(furnitureImg);
+          }}
+          className="switchProjectBtn"
+        >
+          furniture project
+        </button>
+        <button
+          onClick={() => {
+            setcurrentImgList(foodImgList);
+          }}
+          className="switchProjectBtn"
+        >
+          restraunt project
+        </button>
+        <button
+          onClick={() => {
+            setcurrentImgList(movieImgList);
+          }}
+          className="switchProjectBtn"
+        >
+          movie db project
+        </button>
       </article>
 
       <button
