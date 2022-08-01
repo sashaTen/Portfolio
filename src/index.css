@@ -159,8 +159,20 @@
   position: absolute;
   background: black;
   z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightblue;
 }
-
+.switchProjectBtn {
+  background: black;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.switchProjectBtn:hover {
+  background: lightgreen;
+  color: black;
+}
 @media screen and (max-width: 680px) {
   .App {
     padding: 5%;

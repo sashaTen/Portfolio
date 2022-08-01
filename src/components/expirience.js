@@ -42,7 +42,11 @@ const Projects = () => {
 
   return (
     <div className="projectContainer">
-      <article className="projectHeader"></article>
+      <article className="projectHeader">
+        <button className="switchProjectBtn">furniture project</button>
+        <button className="switchProjectBtn">furniture project</button>
+        <button className="switchProjectBtn">furniture project</button>
+      </article>
 
       <button
         onClick={() => {
