@@ -172,6 +172,12 @@
   background: lightgreen;
   color: black;
 }
+.rotate {
+  transition: 1s;
+}
+.rotate:hover {
+  transform: rotateY(180deg);
+}
 @media screen and (max-width: 680px) {
   .App {
     padding: 5%;

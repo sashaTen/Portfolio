@@ -6,13 +6,7 @@ import AboutMe from "./components/about";
 import MySkills from "./components/skills";
 import Projects from "./components/expirience";
 function App() {
-  return (
-    <div className="App">
-      <JobTitles />
-
-      <Projects />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
