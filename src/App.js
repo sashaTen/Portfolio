@@ -30,12 +30,18 @@ function App() {
     SetExpirience
   ];
 
+  function closeAllComponents() {
+    for (let i = 0; i < listOfDisplayedComponenst.length; i++) {
+      listOfDisplayedComponenst[i](false);
+    }
+  }
   return (
     <div className="App">
       <div className="menuHeader">
         <button
           onClick={() => {
-            SetEducation(!education);
+            closeAllComponents();
+            SetEducation(true);
           }}
           className="menuBtn"
         >
@@ -43,7 +49,8 @@ function App() {
         </button>
         <button
           onClick={() => {
-            setSkills(!skills);
+            closeAllComponents();
+            setSkills(true);
           }}
           className="menuBtn"
         >
@@ -52,7 +59,8 @@ function App() {
         </button>
         <button
           onClick={() => {
-            SetExpirience(!expirience);
+            closeAllComponents();
+            SetExpirience(true);
           }}
           className="menuBtn"
         >
@@ -61,7 +69,8 @@ function App() {
         </button>
         <button
           onClick={() => {
-            SetContacts(!contacts);
+            closeAllComponents();
+            SetContacts(true);
           }}
           className="menuBtn"
         >
