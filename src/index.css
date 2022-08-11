@@ -8,6 +8,21 @@
   background-image: linear-gradient(to top, lightgreen, black, black, black);
   overflow: hidden;
 }
+.menuHeader {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 2%;
+}
+.menuBtn {
+  background: transparent;
+  color: lightgreen;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.menuBtn:hover {
+  color: yellow;
+}
 .mainContainer {
   text-transform: uppercase;
   font-family: "Rubik Moonrocks", cursive;
