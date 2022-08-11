@@ -172,12 +172,18 @@
   background: lightgreen;
   color: black;
 }
-.rotate {
-  transition: 1s;
+.githubLink {
+  position: fixed;
+  text-transform: uppercase;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+  font-size: 2rem;
 }
-.rotate:hover {
-  transform: rotateY(180deg);
+.githubLink:hover {
+  color: yellow;
 }
+
 @media screen and (max-width: 680px) {
   .App {
     padding: 5%;
@@ -232,5 +238,9 @@
   .galleryBtnRight {
     right: -3%;
     font-size: 3rem;
+  }
+  .githubLink {
+    left: 18%;
+    font-size: 1rem;
   }
 }

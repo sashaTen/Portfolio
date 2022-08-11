@@ -11,9 +11,27 @@ import { useState } from "react";
 import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
 const Projects = () => {
   const [moveToRight, setMoveToRight] = useState(0);
-  const furnitureImg = [image, image2, image3];
-  const foodImgList = [image4, image5, image6];
-  const movieImgList = [image7, image8, image9];
+  const furnitureImg = [
+    image,
+    image2,
+    image3,
+    "furniture project",
+    "https://github.com/sashaTen/Furniture_E_commerce"
+  ];
+  const foodImgList = [
+    image4,
+    image5,
+    image6,
+    "digital menu",
+    "https://github.com/sashaTen/digital_menu"
+  ];
+  const movieImgList = [
+    image7,
+    image8,
+    image9,
+    "moviedb  project",
+    "https://github.com/sashaTen/movie_imbd"
+  ];
   const [currentImgList, setcurrentImgList] = useState(furnitureImg);
 
   function moveGalleryToLeft() {
@@ -91,6 +109,18 @@ const Projects = () => {
         className="galleryContainer"
         style={{ right: moveToRight + "%" }}
       >
+        <p>
+          <a
+            className="githubLink"
+            target="_blank"
+            href={currentImgList[currentImgList.length - 1]}
+          >
+            {" "}
+            github link
+            <br />
+            to {currentImgList[currentImgList.length - 2]}
+          </a>
+        </p>
         <div className="projectImg1">
           <img className="projectImg1" src={currentImgList[0]} />
         </div>

@@ -5,11 +5,11 @@ import Contacts from "./components/contacts";
 import AboutMe from "./components/about";
 import MySkills from "./components/skills";
 import Projects from "./components/expirience";
-import FlipCard from "./components/rotations";
+
 function App() {
   return (
     <div className="App">
-      <FlipCard />
+      <Projects />
     </div>
   );
 }
