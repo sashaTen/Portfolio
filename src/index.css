@@ -213,7 +213,7 @@
   }
   .jobTitleContainer {
     margin-top: -10%;
-    filter: blur(15px);
+
     left: 4%;
   }
   .jobTitleContainer > h1 {

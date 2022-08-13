@@ -16,6 +16,7 @@ import { useState } from "react";
 */
 
 function App() {
+  const [blur, setBlur] = useState({});
   const [skills, setSkills] = useState(false);
   const [contacts, SetContacts] = useState(false);
 
@@ -30,6 +31,10 @@ function App() {
     SetExpirience
   ];
 
+  const blurred = {
+    // filter:  "blur(15px)"
+  };
+
   function closeAllComponents() {
     for (let i = 0; i < listOfDisplayedComponenst.length; i++) {
       listOfDisplayedComponenst[i](false);
@@ -42,6 +47,7 @@ function App() {
           onClick={() => {
             closeAllComponents();
             SetEducation(true);
+            setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
         >
@@ -51,6 +57,7 @@ function App() {
           onClick={() => {
             closeAllComponents();
             setSkills(true);
+            setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
         >
@@ -61,6 +68,7 @@ function App() {
           onClick={() => {
             closeAllComponents();
             SetExpirience(true);
+            setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
         >
@@ -71,6 +79,7 @@ function App() {
           onClick={() => {
             closeAllComponents();
             SetContacts(true);
+            setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
         >
@@ -79,7 +88,7 @@ function App() {
         </button>
       </div>
 
-      <JobTitles />
+      <JobTitles blurState={blur} />
       {contacts && <Contacts />}
       {skills && <MySkills />}
       {expirience && <Projects />}
