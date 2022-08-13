@@ -6,7 +6,8 @@ import AboutMe from "./components/about";
 import MySkills from "./components/skills";
 import Projects from "./components/expirience";
 import { useState } from "react";
-
+//AiOutlineMenuUnfold
+import { AiOutlineMenuUnfold } from "react-icons/ai";
 /*
 
   <AboutMe/>
@@ -19,9 +20,9 @@ function App() {
   const [blur, setBlur] = useState({});
   const [skills, setSkills] = useState(false);
   const [contacts, SetContacts] = useState(false);
-
+  const [displayHeader, seTdisplayHeader] = useState({ display: "none" });
   const [expirience, SetExpirience] = useState(false);
-
+  const [displayMenu, seTdisplayMenu] = useState("menuIcon");
   const [education, SetEducation] = useState(false);
 
   let listOfDisplayedComponenst = [
@@ -36,9 +37,17 @@ function App() {
       listOfDisplayedComponenst[i](false);
     }
   }
+
   return (
     <div className="App">
-      <div className="menuHeader">
+      <AiOutlineMenuUnfold
+        onClick={() => {
+          seTdisplayHeader({ display: "flex" });
+          seTdisplayMenu("displayNone");
+        }}
+        className={displayMenu}
+      />
+      <div style={displayHeader} className="menuHeader">
         <button
           onClick={() => {
             closeAllComponents();
@@ -81,6 +90,15 @@ function App() {
         >
           {" "}
           contacts
+        </button>
+        <button
+          onClick={() => {
+            seTdisplayHeader({ display: "none" });
+            seTdisplayMenu("menuIcon");
+          }}
+          className="closeMenu"
+        >
+          X
         </button>
       </div>
 
