@@ -95,6 +95,8 @@ function App() {
           onClick={() => {
             seTdisplayHeader({ display: "none" });
             seTdisplayMenu("menuIcon");
+            closeAllComponents();
+            setBlur({});
           }}
           className="closeMenu"
         >
