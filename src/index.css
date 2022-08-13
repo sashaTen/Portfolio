@@ -5,7 +5,7 @@
   color: white;
   text-align: center;
   min-height: 100vh;
-  background-image: linear-gradient(to top, lightgreen, black, black, black);
+  background-image: linear-gradient(to top, cyan, black, black, black);
   overflow: hidden;
 }
 .displayNone {
