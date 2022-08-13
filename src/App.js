@@ -31,10 +31,6 @@ function App() {
     SetExpirience
   ];
 
-  const blurred = {
-    // filter:  "blur(15px)"
-  };
-
   function closeAllComponents() {
     for (let i = 0; i < listOfDisplayedComponenst.length; i++) {
       listOfDisplayedComponenst[i](false);
