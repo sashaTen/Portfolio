@@ -6,3 +6,7 @@ https://www.youtube.com/watch?v=rchKaSMQ__8&t=37s  //    digital   marketing
 this   semester    I'd better  focus   on  the    programming  and  only  learn   a bit  of stats 
 and  marketing //   read   book    marketing  by  seth   godin   listen  to the  podcast  
 and  martech    buainess  and  startups   in  general 
+
+
+
+https://github.com/278kunal/leetcode-top-100 // top   leetcode    questions 
