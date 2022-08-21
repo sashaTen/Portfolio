@@ -243,7 +243,7 @@
     -webkit-text-fill-color: transparent;
     opacity: 0;
     position: relative;
-    left: 50%;
+    left: 5%;
     transition: 1s;
   }
   .projectContainer,
