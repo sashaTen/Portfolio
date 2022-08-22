@@ -1,22 +1,16 @@
-//link  to  the  resume
-//https://lmpixels.com/demo/breezycv/dark/1/index.html#resume
 import JobTitles from "./components/jobTitles";
 import Contacts from "./components/contacts";
 import AboutMe from "./components/about";
 import MySkills from "./components/skills";
 import Projects from "./components/expirience";
 import { useState } from "react";
-//AiOutlineMenuUnfold
 import { AiOutlineMenuUnfold } from "react-icons/ai";
-/*
-
-  <AboutMe/>
-      <MySkills/>
-      <Contacts/>
-      <Projects/>
-*/
 
 function App() {
+  const [textEffectClass, SETtextEffectClass] = useState({});
+  const [textEffectClass2, SETtextEffectClass2] = useState({});
+  const [textEffectClass3, SETtextEffectClass3] = useState({});
+  const [textEffectClass4, SETtextEffectClass4] = useState({});
   const [blur, setBlur] = useState({});
   const [skills, setSkills] = useState(false);
   const [contacts, SetContacts] = useState(false);
@@ -32,6 +26,26 @@ function App() {
     SetExpirience
   ];
 
+  const effectAttributes = {
+    opacity: "1",
+    position: "relative",
+    left: "0%"
+  };
+  function displayText() {
+    setTimeout(() => {
+      SETtextEffectClass(effectAttributes);
+    }, 500);
+    setTimeout(() => {
+      SETtextEffectClass2(effectAttributes);
+    }, 900);
+    setTimeout(() => {
+      SETtextEffectClass3(effectAttributes);
+    }, 1200);
+    setTimeout(() => {
+      SETtextEffectClass4(effectAttributes);
+    }, 1500);
+  }
+
   function closeAllComponents() {
     for (let i = 0; i < listOfDisplayedComponenst.length; i++) {
       listOfDisplayedComponenst[i](false);
@@ -42,6 +56,7 @@ function App() {
     <div className="App">
       <AiOutlineMenuUnfold
         onClick={() => {
+          displayText();
           seTdisplayHeader({ display: "flex" });
           seTdisplayMenu("displayNone");
         }}
@@ -55,6 +70,7 @@ function App() {
             setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
+          style={textEffectClass}
         >
           about me
         </span>
@@ -65,6 +81,7 @@ function App() {
             setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
+          style={textEffectClass2}
         >
           {" "}
           my skills
@@ -76,6 +93,7 @@ function App() {
             setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
+          style={textEffectClass3}
         >
           {" "}
           my projects
@@ -87,6 +105,7 @@ function App() {
             setBlur({ filter: "blur(15px)" });
           }}
           className="menuBtn"
+          style={textEffectClass4}
         >
           {" "}
           my contacts
