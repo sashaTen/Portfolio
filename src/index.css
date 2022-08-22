@@ -51,8 +51,11 @@
   text-transform: uppercase;
   font-weight: bold;
   opacity: 0;
-  position: relative;
-  left: 5%;
+  transition: 1s;
+  animation-name: textEffect;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
   transition: 1s;
 }
 .menuBtn:hover {
@@ -90,9 +93,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
-  position: relative;
-  left: 5%;
   transition: 1s;
+  animation-name: textEffect;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 .templateContainer,
@@ -297,5 +302,17 @@
   .githubLink {
     left: 18%;
     font-size: 1rem;
+  }
+}
+@keyframes textEffect {
+  0% {
+    opacity: 0;
+    position: relative;
+    left: 5%;
+  }
+  100% {
+    opacity: 1;
+    position: relative;
+    left: 0%;
   }
 }
