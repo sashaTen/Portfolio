@@ -13,19 +13,19 @@ const JobTitles = (props) => {
     left: "0%"
   };
 
-  function displayText(time) {
+  function displayText() {
     setTimeout(() => {
       SETtextEffectClass(effectAttributes);
     }, 500);
     setTimeout(() => {
       SETtextEffectClass2(effectAttributes);
-    }, 700);
+    }, 900);
     setTimeout(() => {
       SETtextEffectClass3(effectAttributes);
-    }, 1000);
+    }, 1200);
     setTimeout(() => {
       SETtextEffectClass4(effectAttributes);
-    }, 1200);
+    }, 1500);
   }
   displayText();
 
