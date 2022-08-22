@@ -48,7 +48,7 @@ function App() {
         className={displayMenu}
       />
       <div style={displayHeader} className="menuHeader">
-        <button
+        <span
           onClick={() => {
             closeAllComponents();
             SetEducation(true);
@@ -57,8 +57,8 @@ function App() {
           className="menuBtn"
         >
           about me
-        </button>
-        <button
+        </span>
+        <span
           onClick={() => {
             closeAllComponents();
             setSkills(true);
@@ -68,8 +68,8 @@ function App() {
         >
           {" "}
           my skills
-        </button>
-        <button
+        </span>
+        <span
           onClick={() => {
             closeAllComponents();
             SetExpirience(true);
@@ -79,8 +79,8 @@ function App() {
         >
           {" "}
           my projects
-        </button>
-        <button
+        </span>
+        <span
           onClick={() => {
             closeAllComponents();
             SetContacts(true);
@@ -89,9 +89,9 @@ function App() {
           className="menuBtn"
         >
           {" "}
-          contacts
-        </button>
-        <button
+          my contacts
+        </span>
+        <span
           onClick={() => {
             seTdisplayHeader({ display: "none" });
             seTdisplayMenu("menuIcon");
@@ -101,7 +101,7 @@ function App() {
           className="closeMenu"
         >
           X
-        </button>
+        </span>
       </div>
 
       <JobTitles blurState={blur} />

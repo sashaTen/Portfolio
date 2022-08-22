@@ -12,9 +12,13 @@
   display: none;
 }
 .closeMenu {
+  position: absolute;
+  right: 0%;
+  top: -150%;
   background: transparent;
   color: lightgreen;
   border: lightgreen 1px solid;
+  padding: 5px;
 }
 .closeMenu:hover {
   border: yellow 1px solid;
@@ -30,12 +34,18 @@
   color: lightblue;
 }
 .menuHeader {
+  right: 5%;
   display: flex;
   justify-content: space-around;
   position: relative;
-  margin-top: 2%;
+  margin-top: 8%;
 }
 .menuBtn {
+  border-left: 1px solid lightblue;
+  padding: 5px;
+  margin-right: 10px;
+  width: 15%;
+  font-size: 0.6rem;
   background: transparent;
   color: lightgreen;
   text-transform: uppercase;
@@ -44,6 +54,7 @@
 .menuBtn:hover {
   color: yellow;
 }
+
 .mainContainer {
   text-transform: uppercase;
   font-family: "Rubik Moonrocks", cursive;
@@ -61,6 +72,7 @@
   position: absolute;
   top: 15%;
   height: 50vh;
+  transition: 1s;
 }
 
 .jobTitleContainer > h1,
