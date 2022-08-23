@@ -24,3 +24,12 @@ https://github.com/nmartinezb3/react-trello-board ///   open  source   project
 
 
 https://www.naturalreaders.com/online/     text  to  speech     online    
+https://blog.logrocket.com/react-component-design-patterns-2022/#:~:text=Design%20patterns%20are%20solution%20templates,problems%20experienced%20by%20React%20developers.
+///     the  design      principles 
+
+
+
+
+
+
+you   better   learn   from  the  react   docs     in  order   to     know how to wrote   clean    and  good  react   code
