@@ -1,40 +1,16 @@
-
-https://www.techgeekbuzz.com/blog/best-front-end-interview-questions/
-https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions
-
-https://www.youtube.com/watch?v=rchKaSMQ__8&t=37s  //    digital   marketing 
-this   semester    I'd better  focus   on  the    programming  and  only  learn   a bit  of stats 
-and  marketing //   read   book    marketing  by  seth   godin   listen  to the  podcast  
-and  martech    buainess  and  startups   in  general 
-
-
-
-https://github.com/278kunal/leetcode-top-100 // top   leetcode    questions 
-
-
-
-https://www.youtube.com/playlist?list=PL5zKSeS09l339nB6ujJPQ9Rsv99_b-aTb         //     acocunting 
-
-
-
-https://github.com/nmartinezb3/react-trello-board ///   open  source   project 
-
-
-
-
-
-https://www.naturalreaders.com/online/     text  to  speech     online    
-https://blog.logrocket.com/react-component-design-patterns-2022/#:~:text=Design%20patterns%20are%20solution%20templates,problems%20experienced%20by%20React%20developers.
-///     the  design      principles 
-
-https://blog.feedspot.com/startup_magazines/     
-
-
-https://fourweekmba.com/     ///   read  that  site   only 
-
-
-
-
-
-
-you   better   learn   from  the  react   docs     in  order   to     know how to wrote   clean    and  good  react   code
+지난달 외국인 주식투자 2조원 넘게 순유출
+영국 사태 반면교사, 거시정책 실수 없어야
+ 
+ 
+요즘 경제상황은 살얼음판 위를 걷는 것처럼 불안하다. 미국 생산자물가 상승과 영국발 금융불안에 국내외 금융시장이 민감한 반응을 보이고 있다. 어제 우리 증시도 2~3% 하락했다.  
+ 
+ 
+피에르 올리비에르 고린차스 국제통화기금(IMF) 수석 이코노미스트는 최근 발표한 세계경제전망 보고서에서 “최악은 아직 오지 않았다”고 경고했다. 미국은 통화 긴축으로, 중국은 부동산 가격조정과 코로나봉쇄로, 유럽은 에너지위기로 취약하다. 세계 최대 3대 경제권이 뒷걸음질치니 신흥시장은 몸살을 앓는다. IMF의 글로벌 금융안정보고서는 인플레이션과 선진국의 긴축 여파로 신흥시장의 부채리스크가 커지고 있다고 우려했다. 나라 곳간이 바닥 난 나라에 IMF가 구제금융으로 빌려준 대출총액이 지난달 말 1350억 달러(약 194조원)로 사상 최대치에 달했다.  
+ 
+어제 공개된 미국 연방준비제도(Fed)의 9월 의사록을 보면 인플레이션을 잡기 위해 경제성장을 어느 정도 희생하겠다는 분위기가 역력하다. 시장에서는 Fed가 기준금리를 다음 달 0.75%포인트 인상에 이어 올해 12월 0.50%포인트, 내년 1월 0.25%포인트 올릴 것으로 전망한다. 국제금융센터는 내년 2월 4.50~4.75%로 정점을 치고 12월이 돼야 0.25%포인트 인하가 시작될 것으로 예상했다. 그제 사상 처음으로 5회 연속 기준금리를 올리면서 한국은행이 공개한 우리의 예상 최종금리가 3.5% 수준임을 감안하면 고통스러운 통화긴축이 한동안 이어질 수밖에 없다.  
+ 
+지난달 국내증시에서 외국인 자금 2조3598억원이 순유출됐다. 외국인 채권 투자자금도 9153억원 빠져나갔다. 9월 이후 이달 11일까지 원화가치 하락 폭(-6.8%)은 기준금리를 올리지도 않고 있는 일본(-4.7%)·중국(-3.7%)보다 가팔랐다.  
+ 
+윤석열 대통령은 어제 출근길에 경제 위기와 관련, “위기는 과장돼서도 안 되고 방치돼서도 안 된다”고 말했다. 맞는 말이다. 국제금융센터가 어제 보고서에서 쓴 것처럼 고물가·고금리로 경제주체들이 취약해지는 ‘민생위기(cost-of-living crisis)’에 대처하기 위해선 정부가 위기의식을 갖고 엄중하게 현 상황을 관리해야 한다.  
+ 
+특히 거시경제 운용에 있어 영국과 같은 실수가 불거져서는 안 된다. 블룸버그는 영국 국채시장 불안이 ‘채권시장 자경단(Bond Vigilante)’의 귀환을 유도하고 있다고 보도했다. 감세안 발표로 정부부채 증가에 대한 우려가 커지자 국채를 대규모로 매도하는 ‘자경단(自警團)’이 나섰다는 분석이다. 시장의 경고인 셈이다. 한국은 8월 경상적자를 본 데 이어 올해 1~8월 재정적자(관리재정수지)가 85조3000억원에 달했다. 쌍둥이 적자를 걱정하는 우리에게 먼 나라 얘기만은 아니다.
